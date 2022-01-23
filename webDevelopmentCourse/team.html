@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>我们</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery.min.js"> </script><!--其实删除这行更好看，如果删掉这行会使动画增加，但删除这行的话team页面就会出问题，所以为了统一就都加上这行了-->
+</head>
+
+<body>
+    <div id="header-nav" class="header-nav">
+        <div class="top-nav">
+            <nav>
+                <div class="logo">
+                    <a href="./index.html"><img src="images/logo2.png" alt="" /></a>
+                </div>
+                <span class="menu"></span>
+                <ul>
+                    <li class="active"><a href="./index.html">主页</a></li>
+                    <li><a href="./论坛-all.html">论坛</a></li>
+                    <li><a href="./blog.html">文章</a></li>
+                    <li><a href="./contact.html">反馈</a></li>
+                    <li><a href="./about.html">项目</a></li>
+                    <li><a><strong>我们</strong></a></li>
+                    <span class="你好">你好，我的宝</span>
+                    <div class="clearfix"> </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="blog" class="content-services">
+        <div class="container">
+            <div class="services-grids">
+
+                <div class="clearfix"> </div>
+            </div>
+            <link href="css/owl.carousel.css" rel="stylesheet">
+            <script src="js/owl.carousel.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $("#owl-demo").owlCarousel({
+                        items: 1,
+                        lazyLoad: true,
+                        autoPlay: true,
+                        navigation: false,
+                        navigationText: false,
+                        pagination: true,
+                    });
+                });
+            </script>
+            <!-- //requried-jsfiles-for owl -->
+            <div id="owl-demo" class="owl-carousel">
+                <div class="item">
+                    <div class="image-grid">
+                        <a href="Self/cqs/index.html"><img src="images/n1.png"></a>
+                    </div>
+                    <div class="services-text">
+                        <p>"人类高质量男性"
+                        </p>
+                    </div>
+                    <div class="services-bottom-text">
+                        <p>曹秋实</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image-grid">
+                        <a href="Self/lyy/index.html"><img src="images/n2.jpg"></a>
+                    </div>
+                    <div class="services-text">
+                        <p>"今日份仙女营业啦"
+                        </p>
+                    </div>
+                    <div class="services-bottom-text">
+                        <p>李亚赟</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image-grid">
+                        <a href="Self/xzf/index.html"><img src="images/n3.jpg"></a>
+                    </div>
+                    <div class="services-text">
+                        <p>"今日份仙男营业啦"
+                        </p>
+                    </div>
+                    <div class="services-bottom-text">
+                        <p>谢之非</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image-grid">
+                        <a href="Self/dzc/index.html"><img src="images/n4.jpg"></a>
+                    </div>
+                    <div class="services-text">
+                        <p>"人类中质量男性"
+                        </p>
+                    </div>
+                    <div class="services-bottom-text">
+                        <p>戴宙辰</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image-grid">
+                        <a href="Self/ly/index.html"><img src="images/n5.jpg"></a>
+                    </div>
+                    <div class="services-text">
+                        <p>"96岁带兵守中"
+                        </p>
+                    </div>
+                    <div class="services-bottom-text">
+                        <p>梁言</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image-grid">
+                        <a href="Self/zz/index.html"><img src="images/n6.jpg"></a>
+                    </div>
+                    <div class="services-text">
+                        <p>"虎辅无犬子"
+                        </p>
+                    </div>
+                    <div class="services-bottom-text">
+                        <p>张桢</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services-bottom"></div>
+        </div>
+    </div>
+</body>
+
+</html>

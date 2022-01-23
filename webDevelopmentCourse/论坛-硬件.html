@@ -1,0 +1,283 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>计算机历史</title>
+        <!--论坛公共css-->
+
+        <link rel="stylesheet" href="css/style.css"/>
+        <!--论坛首页css-->
+        <!--论坛-历史-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" type="text/css" href="css/内容css/try1.css" />
+        <link rel="stylesheet" type="text/css" href="css/内容css/oribootstrap.css" />
+
+    </head>
+
+    <body>
+<!-----------------------------------------------------导航-------------------------------------------------------------------------->
+        <div id="header-nav" class="header-nav">
+            <div class="top-nav">
+                <nav>
+                    <div class="logo">
+                        <a href="./index.html"><img src="images/logo2.png" alt="" /></a>
+                    </div>
+                    <span class="menu"></span>
+                    <ul>
+                        <li class="active"><a href="./index.html">主页</a></li>
+                        <li><a href="论坛-all.html">论坛</a></li>
+                        <li><a href="./blog.html"><strong>文章</strong></a></li>
+                        <li><a href="./contact.html">反馈</a></li>
+                        <li><a href="./about.html">项目</a></li>
+                        <li><a href="./team.html">我们</a></li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+ <!-----------------------------------------------------搜索----------------------------------------------------------------------------->
+        <div class="search-area-wrapper">
+          <div class="search-area container">
+            <h3 class="search-header">Computer Hardware</h3>
+            <p class="search-tag-line">身体是革命的本钱，硬件是电脑的本钱。</p>
+
+            <!--<form id="search-form" class="search-form clearfix" method="get" action="#" autocomplete="off">
+                <input class="search-term required" type="text" id="s" name="s" placeholder="在此处键入你的问题" />
+                <input class="search-btn" type="submit" value="Search" />
+                <div id="search-error-container"></div>
+            </form>-->
+          </div>
+        </div>
+    <!-------------------------------------------------------侧边栏-------------------------------------------------------------------->
+    <div class="slider-nav">
+        <ul class="slider-ul">
+            <li class="slider-li" >
+                <h4 href="" class="name"></a>
+                <span><a href="#">全部</a></span>
+            </li>
+            <li class="slider-li">
+                <h4 href="" class="name" ></a>
+                <span><a href="#总线">总线</a></span>
+            </li>
+            <li class="slider-li" >
+                <h4 href="" class="name"></a>
+                <span><a href="#IO设备">I/O设备</a></span>
+            </li>
+            <li class="slider-li">
+                <h4 href="" class="name"></a>
+                <span><a href="#主存">主存</a></span>
+            </li>
+            <li class="slider-li">
+                <h4 href="" class="name"></a>
+                <span><a href="#处理器">处理器</a></span>
+            </li>
+            <li class="slider-li">
+                <h4 href="" class="name"></a>
+                <span><a href="#显卡">显卡</a></span>
+            </li>
+            <li class="slider-li">
+                <h4 href="" class="name"></a>
+                <span><a href="#硬盘">硬盘</a></span>
+            </li>
+            
+            
+        </ul>
+    </div>
+    <!----------------------------------------------------------内容--------------------------------------------------------------------->
+
+        <!-------- 第一部分 -------->
+        <div class="container">
+            <h1 align="center"><strong>硬件？Hard Things(bushi)</strong></h1>
+            <section class="spcl_section layout_padding">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="detail_container">
+                        <div class="detail-box">
+                          
+                          <div class="heading_container">
+                            <h2 id="总线">
+                              1、总线
+                            </h2>
+                          </div>
+                          <p>
+                            贯穿整个系统的是一组电子管道，称作总线，它携带信息字节并负责在各个部件间传递。通常总线被设计成传送定长的字节块，也就是字（word)。字中的字节数（即字长）是一个基本的系统参数，各个系统中都不尽相同。现在的大多数机器字长要么是4个字节（32位），要么是8个字节(64位）。本书中，我们不对字长做任何固定的假设。相反，我们将在需要明确定义的上下文中具体说明一个“字”是多大。 
+                          </p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5 ml-auto">
+                      <div class="img-box">
+                        <img src="硬件images/总线.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            
+              <!-- 第二部分 -->
+            
+              <section class="about_section  layout_padding-bottom">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="img-box">
+                        <img src="硬件images/io设备.jfif" alt="">
+                      </div>
+                      
+                    </div>
+                    
+                  </dic>
+                   
+                    
+                    <div class="col-md-6">
+                      <div class="detail-box">
+                        <div class="heading_container">
+                          <h2 id="IO设备">
+                            2、I/O设备
+                          </h2>
+                        </div>
+                        <p>
+                            I/O(输入/输出）设备是系统与外部世界的联系通道。我们的示例系统包括四个I/O设备：作为用户输入的键盘和鼠标，作为用户输出的显示器，以及用于长期存储数据和程序的磁盘驱动器(简单地说就是磁盘）。最开始，可执行程序hello就存放在磁盘上。每个I/O设备都通过一个控制器或适配器与I/O总线相连。控制器和适配器之间的区别主要在于它们的封装方式。控制器是I/O设备本身或者系统的主印制电路板（通常称作主板)上的芯片组。而适配器则是一块插在主板插槽上的卡。无论如何，它们的功能都是在I/O总线和I/O设备之间传递信息。
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            
+               <!-------　第一部分　-------->
+                <section class="spcl_section layout_padding">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="detail_container">
+                            <div class="detail-box">
+                              
+                              <div class="heading_container">
+                                <h2 id="主存">
+                                  3、主存
+                                </h2>
+                              </div>
+                              <p>
+                                主存是一个临时存储设备，在处理器执行程序时，用来存放程序和程序处理的数据。从物理上来说，主存是由一组动态随机存取存储器(DRAM)芯片组成的。从逻辑上来说，存储器是一个线性的字节数组，每个字节都有其唯一的地址（数组索引），这些地址是从零开始的。一般来说，组成程序的每条机器指令都由不同数量的字节构成。与C程序变量相对应的数据项的大小是根据类型变化的。比如，在运行Linux的X86-64机器上,short类型的数据需要2个字节，int和float类型需要4个字节，而long和double类型需要8个宇节。
+                              </p>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5 ml-auto">
+                          <div class="img-box">
+                            <img src="硬件images/主存.jfif" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                
+                 
+                
+                  <section class="about_section  layout_padding-bottom">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="img-box">
+                            <img src="硬件images/处理器.jfif" alt="">
+                          </div>
+                          
+                        </div>
+                        
+                      </dic>
+                       
+                        
+                        <div class="col-md-6">
+                          <div class="detail-box">
+                            <div class="heading_container">
+                              <h2 id="处理器">
+                                4、处理器
+                              </h2>
+                            </div>
+                            <p>
+                                中央处理单元（CPU), 简称处理器，是解释（或执行）存储在主存中指令的引擎。处理器的核心是一个大小为一个字的存储设备（或寄存器），称为程序计数器（PC)。在任何时刻，PC都指向主存中的某条机器语言指令（即含有该条指令的地址）。 <br>
+                                从系统通电开始，直到系统断电，处理器一直在不断地执行程序计数器指向的指令，再更新程序计数器，使其指向下一条指令。处理器看上去是按照一个非常简单的指令执行模型来操作的，这个模型是由指令集架构决定的。在这个模型中，指令按照严格的顺序执行，而执行一条指令包含执行一系列的步骤。处理器从程序计数器指向的内存处读取指令，解释指令中的位，执行该指令指示的简单操作，然后更新PC使其指向下一条指令，而这条指令并不一定和在内存中刚刚执行的指令相邻。这样的简单操作并不多，它们围绕着主存、寄存器文件（register file)和算术/逻辑单元(ALU)进行。寄存器文件是一个小的存储设备，由一些单个字长的寄存器组成，每个寄存器都有唯一的名字。ALU计算新的数据和地址值。下面是一些简单操作的例子，CPU在指令的要求下可能会执行这些操作。<br>
+                                •加载：从主存复制一个字节或者一个字到寄存器，以覆盖寄存器原来的内容。 <br>
+                                •存储：从寄存器复制一个字节或者一个字到主存的某个位置，以覆盖这个位置上原来的内容。<br> 
+                                •操作：把两个寄存器的内容复制到ALU,ALU对这两个字做算术运算，并将结果存放到一个寄存器中，以覆盖该寄存器中原来的内容。<br>
+                                •跳转：从指令本身中抽取一个字，并将这个字复制到程序计数器（PC)中，以覆盖PC中原来的值。处理器看上去是它的指令集架构的简单实现，但是实际上现代处理器使用了非常复杂的机制来加速程序的执行。因此，我们将处理器的指令集架构和处理器的微体系结构区分开来：指令集架构描述的是每条机器代码指令的效果；而微体系结构描述的是处理器实际上是如何实现的。                                
+                            </p>
+                            <a href="index.html">
+                              这次呢
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                
+                   <!--第一部分-->
+                    <section class="spcl_section layout_padding">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="detail_container">
+                                <div class="detail-box">
+                                  
+                                  <div class="heading_container">
+                                    <h2 id="显卡">
+                                      5、显卡
+                                    </h2>
+                                  </div>
+                                  <p>
+                                    显卡又称显示卡( Video card)，是计算机中一个重要的组成部分，承担输出显示图形的任务，对喜欢玩游戏和从事专业图形设计的人来说，显卡非常重要。主流显卡的显示芯片主要由NVIDIA（英伟达）和AMD（超威半导体 ）两大厂商制造，通常将采用NVIDIA显示芯片的显卡称为N卡，而将采用AMD显示芯片的显卡称为A卡。配置较高的计算机，都包含显卡计算核心。在科学计算中，显卡被称为显示加速卡。 <br>
+                                    显示芯片( Video chipset)是显卡的主要处理单元，因此又称为图形处理器(Graphic Processing Unit，GPU)，GPU是NVIDIA公司在发布GeForce 256图形处理芯片时首先提出的概念。尤其是在处理3D图形时，GPU使显卡减少了对CPU的依赖，并完成部分原本属于CPU的工作。GPU所采用的核心技术有硬件T&L（几何转换和光照处理）、立方环境材质贴图和顶点混合、纹理压缩和凹凸映射贴图、双重纹理四像素256位渲染引擎等，而硬件T&L技术可以说是GPU的标志。<br>
+                                    显卡所支持的各种3D特效由显示芯片的性能决定，采用什么样的显示芯片大致决定了这块显卡的档次和基本性能，比如NVIDIA的GT系列和AMD的HD系列。 <br>
+                                    衡量一个显卡好坏的方法有很多，除了使用测试软件测试比较外，还有很多指标可供用户比较显卡的性能，影响显卡性能的高低主要有显卡频率、显示存储器等性能指标。 
+
+                                  </p>
+                                </div>
+                                
+                              </div>
+                            </div>
+                            <div class="col-md-6 col-lg-5 ml-auto">
+                              <div class="img-box">
+                                <img src="硬件images/显卡.jfif" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    
+                      <!-- 第二部分 -->
+                    
+                      <section class="about_section  layout_padding-bottom">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="img-box">
+                                <img src="硬件images/硬盘.jfif" alt="">
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="detail-box">
+                                <div class="heading_container">
+                                  <h2 id="硬盘">
+                                    6、硬盘
+                                  </h2>
+                                </div>
+                                <p>
+                                    电脑硬盘是计算机最主要的存储设备。硬盘（港台称之为硬碟，英文名：Hard Disk Drive，简称HDD 全名温彻斯特式硬盘）由一个或者多个铝制或者玻璃制的碟片组成。这些碟片外覆盖有铁磁性材料。<br>
+                                    绝大多数硬盘都是固定硬盘，被永久性地密封固定在硬盘驱动器中。早期的硬盘存储媒介是可替换的，不过今日典型的硬盘是固定的存储媒介，被封在硬盘里（除了一个过滤孔，用来平衡空气压力）。随着发展，可移动硬盘也出现了，而且越来越普及，种类也越来越多.大多数微机上安装的硬盘，由于都采用温切斯特（winchester)技术而被称之为“温切斯特硬盘”，或简称“温盘”。                                    
+                                </p>
+                                <a href="#">
+                                  你猜猜这个按钮是干什么的
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                
+    
+    </body>
+</html>
