@@ -1,0 +1,79 @@
+.spcl_section .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .spcl_section .detail-box {
+    margin-bottom: 35px;
+    font-family: 黑体;
+    font-size: 25px;
+    line-height: 35pt;
+  }
+  
+  .spcl_section .detail-box img {
+    width: 45px;
+    margin-bottom: 10px;
+  }
+  
+  .spcl_section .detail-box h5 {
+    text-transform: uppercase;
+  }
+  
+  .spcl_section .img-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #184d47));
+    background: linear-gradient(to bottom, transparent 70%, #184d47 70%); /*解决兼容性问题*/
+    padding: 0 25px 35px 25px;
+  }
+  
+  .spcl_section .img-box img {
+    width: 75%;
+  }
+  
+  .about_section .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .about_section .img-box {
+    position: relative;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #184d47));
+    background: linear-gradient(to bottom, transparent 70%, #184d47 70%);
+    padding: 0 25px 35px 25px;
+  }
+  
+  .about_section .img-box img {
+    width: 100%;
+    position: relative;
+  }
+  
+  .about_section .detail-box p {
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-family: 黑体 ;
+    font-size: 25px;
+    line-height: 35pt;
+  }
+  
+  .about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #96bb7c;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #96bb7c;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+  
+  .about_section .detail-box a:hover {
+    background-color: transparent;
+    color: #96bb7c;
+  }
